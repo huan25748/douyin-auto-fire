@@ -3,7 +3,7 @@ name: Send Douyin Messages
 on:
   workflow_dispatch:
     inputs:
-      dry_run:
+      dry_run: false
         description: Only verify login and friends without sending
         type: boolean
         default: false
